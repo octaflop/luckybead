@@ -1,0 +1,83 @@
+body, html {
+	background: #000000;
+	color: #fefefe;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1em;
+	text-shadow: 0px 0px 1px #507080;
+}
+
+.container_12 {
+	border-left: 1px dashed #fefefe;
+	border-right: 1px dashed #fefefe;
+}
+
+
+a, a:visited {
+	/*color: #aede1f;*/
+	color: #ddad1f;
+}
+
+a:hover {
+	color: #D40000;
+}
+
+img#logo {
+	width: 100%;
+}
+
+header#topheader {
+	background: -moz-linear-gradient(90deg,#121212,#2f2f2f);
+	background: -webkit-linear-gradient(90deg,#121212,#2f2f2f);
+}
+
+footer#site_footer {
+	background: -moz-linear-gradient(90deg,#121212,#000000);
+	background: -webkit-linear-gradient(90deg,#121212,#000000);
+}
+
+.page {
+	background: #121212
+}
+
+h1#banner {
+	font-size: 4em;
+	font-family: "Josefin Slab", serif;
+}
+
+h2#siteurl {
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+#sitenav {
+	font-size: 1.5em;
+	margin-left: -30px;
+}
+
+#sitenav ul {
+	text-decoration: none;
+}
+
+#sitenav li {
+	display: inline;
+}
+
+#sitenav li a {
+	text-decoration: none;
+	color: #ddad1f;
+}
+
+#sitenav li a:hover, #sitenav li a:active {
+	color: #ddad1f;
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px #f1f2f3;
+}
+
+span.topbanner {
+	font-weight: 100;
+}
+
+span.bottombanner {
+	font-weight: 600;
+}
+
