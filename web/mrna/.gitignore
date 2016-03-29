@@ -1,0 +1,12 @@
+.*.swp
+*.pyc
+include/
+distribute/
+lib/
+local/
+local
+man/
+bin/
+src/
+
+

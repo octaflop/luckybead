@@ -1,0 +1,57 @@
+<!doctype=html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lucky Bead Consulting</title>
+		<meta name="author" content="{{ site.author }}">
+		<link rel='stylesheet' href='/static/css/reset.css' />
+		<link rel='stylesheet' href='/static/css/text.css' />
+		<link rel='stylesheet' href='/static/css/960.css' />
+		<!-- Local Site Stylesheet -->
+		<link rel='stylesheet' href='/static/css/style.css' />
+		<!-- Google font stylesheet -->
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,400italic,700italic|Josefin+Slab:100,300,400,600,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-709399-2']);
+			_gaq.push(['_setDomainName', 'theluckybead.com']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	<body>
+		<div class="container_12">
+			<header id='topheader' class='grid_12'>
+				<div class="grid_3 alpha">
+					<!--<img id="logo" src="static/img/brandish_black.png" />-->
+					<img id="logo" src="/static/img/bead.png" />
+				</div>
+				<div class="grid_9 omega">
+					<h1 id='banner'><span class='topbanner'>Lucky Bead</span><br /> <span class='bottombanner'>Consulting</span></h1>
+				</div>
+				<div class="grid_12 alpha omega" id="navbar">
+					{% include navbar.html %}
+				</div>
+			</header>
+			<div class="grid_12 page">
+				<div class="grid_3 alpha">
+					<!--	<img src="" title="creative" /> -->
+						{% include sidebar.html %}
+				</div>
+				<div class="grid_9 omega">
+					{{ content }}
+				</div>
+			</div>
+			<footer id="site_footer">
+				<h2 id='siteurl'><a	href="http://theluckybead.com/">theluckybead.com</a></h2>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+/* screen.css */
+body, html {
+    background-color: #700707;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family:Georgia;
+    font-size:12px;
+    color:#555555;
+}
+a {
+    color:#F2962E;
+}
+#page {
+    width:960px;
+    margin:auto;
+    padding:auto;
+    background-image:url('/images/page.png');
+    text-align:left;
+}
+#header {
+    width:960px;
+    height:145px;
+    background-image:url('/images/header.png');
+    clear:both;
+}
+#mainarea {
+    width:960px;
+    clear:both;
+    padding-top:10px;
+}
+#contentarea {
+    float:left;
+    width:775px;
+    padding-left:45px;
+    margin-bottom:10px;
+}
+#footer {
+    width:960px;
+    height:130px;
+    background-image:url('/images/footer.png');
+    clear:both;
+}
+
+#footer p {
+    padding-top:15px;
+    color:#0F0F0F;
+    padding-left:50px;
+    line-height:20px;
+}

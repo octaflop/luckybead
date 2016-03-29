@@ -1,0 +1,76 @@
+% bus_card.tex, Brian Moses [moses@ms.uky.edu], October '95
+% further modified by Charles Danforth [danforth@pha.jhu.edu], January 2000
+
+\documentstyle{article}
+
+%%%%%%%%%%%%%%%%%%%%% DEFINE USER SPECIFIC MACROS BELOW %%%%%%%%%%%%%%%%%%%%%
+\def\Who     {Charles W. Danforth}
+\def\What    {Graduate Student}
+\def\Where   {Department of Physics \& Astronomy}
+\def\Address {3400 N. Charles St.}
+\def\CityZip {Baltimore, MD 21218}
+\def\Email   {danforth@pha.jhu.edu}
+\def\TEL     {(410) 516-8034}
+\def\FAX     {}
+\def\URL     {http://fuse.pha.jhu.edu/$\sim$danforth} % NOTE: use $\sim$ for ~
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MARGINS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textwidth       7.00in
+\textheight     10.50in
+%\textheight      4.50in
+\oddsidemargin   -.25in
+\evensidemargin  -.25in
+\topmargin      -0.90in
+\itemindent      0.00in
+\parindent       0.00in
+
+%%%%%%%%%%%%%%%%%%%%% BUSINESS CARD MACRO [\card] BELOW %%%%%%%%%%%%%%%%%%%%
+\def\card{\begin{tabular}{c}
+           \psfig{figure=JHUseal_large.ps,%
+                  bbllx=295pt,%
+                  bblly=420pt,%
+                  bburx=-10pt,%
+                  bbury=430pt}%
+          \Large
+          \begin{tabular}[t]{l}
+          \hspace*{.45in} JOHNS HOPKINS \\
+          \hspace*{.45in} UNIVERSITY \\
+          \hspace*{.45in} 
+          \rule[1.75ex]{2.10in}{.5pt}\\%
+          \end{tabular}%
+
+          \normalsize\vspace{-0.1in}\\
+          \hspace*{.55in}{\Large      \Who}\vspace{0.05in}\\
+          \hspace*{.55in}{\normalsize \What}\vspace{0.05in}\\
+          \rule[-2ex]{0ex}{2ex}
+          \hspace*{.55in}\small{\normalsize \Where}\\%
+          \small%
+
+          \begin{tabular}[b]{lr}
+          \hspace*{.55in}\Address & {\footnotesize Tel}: \TEL\\
+          \hspace*{.55in}\CityZip & \Email\\
+          \end{tabular}\\
+
+          \hspace*{.55in}\footnotesize \URL%
+
+          \end{tabular}}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{psfig}
+\pagestyle{empty}
+\begin{document}
+\typeout{card.tex, by Brian Moses}
+\setlength{\unitlength}{1in}%
+\begin{picture}(7.0,10)%
+\put(00.0,08.0){\makebox(3.5,2.0){\card}}  %  Change \makebox to \framebox
+\put(03.5,08.0){\makebox(3.5,2.0){\card}}  %  to produce a visual box for
+\put(00.0,06.0){\makebox(3.5,2.0){\card}}  %  previewing purposes.
+\put(03.5,06.0){\makebox(3.5,2.0){\card}}
+\put(00.0,04.0){\makebox(3.5,2.0){\card}}
+\put(03.5,04.0){\makebox(3.5,2.0){\card}}
+\put(00.0,02.0){\makebox(3.5,2.0){\card}}
+\put(03.5,02.0){\makebox(3.5,2.0){\card}}
+\put(00.0,00.0){\makebox(3.5,2.0){\card}}
+\put(03.5,00.0){\makebox(3.5,2.0){\card}}
+\end{picture}
+\end{document}

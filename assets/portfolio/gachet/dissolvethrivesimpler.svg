@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.2"
+   width="990"
+   height="1530"
+   id="svg3979">
+  <defs
+     id="defs3981">
+    <radialGradient
+       cx="318.89795"
+       cy="318.88361"
+       r="195.88222"
+       fx="318.89795"
+       fy="318.88361"
+       id="radialGradient3854"
+       xlink:href="#linearGradient3830"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0000016,0,-5.16114e-4)" />
+    <linearGradient
+       id="linearGradient3830">
+      <stop
+         id="stop3832"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3834"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata3984">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer3">
+    <rect
+       width="1000"
+       height="1528.5714"
+       x="-2.8571429"
+       y="1.4285715"
+       id="rect3805"
+       style="color:#000000;fill:#d8d8e2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     transform="translate(0,477.64025)"
+     id="layer1">
+    <path
+       d="m 85.583838,-50.798338 67.968442,0 0,-271.873782 271.87381,-2e-5 0,-67.96843"
+       id="path3901"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:27.18737984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 561.36295,-390.64057 0,67.96843 271.87382,0 0,271.873802 67.96845,0"
+       id="path3899"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:27.18737984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 124.04676,315.40695 a 194.8819,194.8819 0 1 1 -0.0196,1.37111"
+       transform="matrix(0.91347393,0,0,0.91347393,202.07341,-274.14349)"
+       id="path3844"
+       style="color:#000000;fill:url(#radialGradient3854);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 31.142941,-309.01749 27.203913,0 0,-108.81564 108.815636,-1e-5 0,-27.2039"
+       id="path3901-5"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:10.88156414;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 819.62647,-445.03704 0,27.18739 108.74957,0 0,108.74951 27.18742,0"
+       id="path3899-3"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:10.87495422;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 901.20522,85.138561 -67.96845,0 0,271.873749 -271.87382,0 0,67.9685"
+       id="path3897"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:27.18737984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 425.42609,424.98081 0,-67.9685 -271.87381,0 0,-271.873749 -67.968442,0"
+       id="path5814"
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:27.18737984;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       transform="translate(0,545.71429)"
+       id="g4085">
+      <path
+         d="m 167.06438,479.29055 0,-27.16585 -108.662772,0 0,-108.6627 -27.165687,0"
+         id="path5814-9"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:10.86627769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         d="m 955.54175,343.4837 -27.16571,0 0,108.6628 -108.66279,0 0,27.16568"
+         id="path3897-1"
+         style="color:#000000;fill:none;stroke:#000000;stroke-width:10.86627769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <flowRoot
+       id="flowRoot3006"
+       xml:space="preserve"
+       style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3008"><rect
+           width="165.66502"
+           height="16.162441"
+           x="226.27417"
+           y="1142.1014"
+           id="rect3010" /></flowRegion><flowPara
+         id="flowPara3012" /></flowRoot>  </g>
+</svg>

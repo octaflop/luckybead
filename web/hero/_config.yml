@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+server: true
+auto: true
+exclude: src/
+permalink: /news/:year/:month/:day/:title
+
